@@ -9,7 +9,7 @@ option_value(){ echo "$1" | sed -e 's%^--[^=]*=%%g; s%^-[^=]*=%%g'; }
 while test $# -gt 0; do
 	case "$1" in
 	-h|--help)
-		. <(https://raw.githubusercontent.com/1Malenok1/Stuff/main/logo_mms.sh)
+		. <(wget -qO- https://raw.githubusercontent.com/1Malenok1/Stuff/main/logo_mms.sh)
 		echo
 		echo -e "${C_LGn}Functionality${RES}: the script installs or uninstalls Docker"
 		echo
