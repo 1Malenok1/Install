@@ -93,4 +93,5 @@ uninstall() {
 
 # Actions
 $function
+. <(wget -qO- https://raw.githubusercontent.com/1Malenok1/Stuff/main/logo_mms.sh)
 echo -e "${C_LGn}Done!${RES}"
