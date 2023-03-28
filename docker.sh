@@ -93,5 +93,14 @@ uninstall() {
 
 # Actions
 $function
+echo -e "${C_LGn}All Operation Completed!${RES}"
 . <(wget -qO- https://raw.githubusercontent.com/1Malenok1/Stuff/main/logo_mms.sh)
-echo -e "${C_LGn}Done!${RES}"
+echo
+		echo -e "${C_Gn}Visit our resources:${RES}"
+		echo -e "${C_C}https://mms.team${RES} — Main_Site"
+		echo -e "${C_C}https://t.me/nftmms${RES} — MMS_Research_Chat"
+		echo -e "${C_C}https://t.me/cosmochannel_mms${RES} — MMS_Cosmos_Ecosystem_Chat"
+		echo -e "${C_C}https://t.me/mmsnodes${RES} — MMS_Nodes_Chat"
+		echo -e "${C_C}https://nodes.mms.team${RES} — Guides_and_Manual's"
+		echo
+
