@@ -21,11 +21,11 @@ while test $# -gt 0; do
 		echo -e "  -un, --uninstall  uninstall Docker (${C_R}completely delete all images and containers${RES})"
 		echo
 		echo -e "${C_Gn}Visit our resources:${RES}"
-		echo -e "${C_C}https://mms.team — Main_Site${RES}"
-		echo -e "${C_C}https://t.me/nftmms — MMS_Research_Chat${RES}"
-		echo -e "${C_C}https://t.me/cosmochannel_mms — MMS_Cosmos_Ecosystem_Chat${RES}"
-		echo -e "${C_C}https://t.me/mmsnodes — MMS_Nodes_Chat${RES}"
-		echo -e "${C_C}https://nodes.mms.team — Guides_and_Manual's${RES}"
+		echo -e "${C_C}https://mms.team${RES} — Main_Site"
+		echo -e "${C_C}https://t.me/nftmms${RES} — MMS_Research_Chat"
+		echo -e "${C_C}https://t.me/cosmochannel_mms${RES} — MMS_Cosmos_Ecosystem_Chat"
+		echo -e "${C_C}https://t.me/mmsnodes${RES} — MMS_Nodes_Chat"
+		echo -e "${C_C}https://nodes.mms.team${RES} — Guides_and_Manual's"
 		echo
 		return 0 2>/dev/null; exit 0
 		;;
