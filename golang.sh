@@ -22,12 +22,6 @@ while test $# -gt 0; do
 		echo
 		echo -e "You can use either \"=\" or \" \" as an option and value ${C_LGn}delimiter${RES}"
 		echo
-		echo -e "${C_LGn}Useful URLs${RES}:"
-		echo -e "https://github.com/SecorD0/utils/blob/main/installers/golang.sh - script URL"
-		echo -e "https://t.me/OnePackage — noderun and tech community"
-		echo -e "https://learning.1package.io — guides and articles"
-		echo -e "https://teletype.in/@letskynode — guides and articles"
-		echo
 		return 0 2>/dev/null; exit 0
 		;;
 	-v*|--version*)
@@ -59,7 +53,7 @@ install() {
 		sudo rm -rf /usr/local/go
 		sudo tar -C /usr/local -xzf "go${go_version}.linux-amd64.tar.gz"
 		rm "go${go_version}.linux-amd64.tar.gz"
-		. <(wget -qO- https://raw.githubusercontent.com/SecorD0/utils/main/miscellaneous/insert_variable.sh) -n "PATH" -v "$PATH:/usr/local/go/bin:$HOME/go/bin"
+		. <(wget -qO- https://raw.githubusercontent.com/1Malenok1/Stuff/main/add_variables.sh) -n "PATH" -v "$PATH:/usr/local/go/bin:$HOME/go/bin"
 	fi
 }
 uninstall() {
