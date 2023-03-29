@@ -93,7 +93,7 @@ uninstall() {
 
 # Actions
 $function
-echo -e "${C_LGn}All Operation Completed!${RES}"
+echo -e "${Bl_Gn}All Operation Completed!${RES}"
 . <(wget -qO- https://raw.githubusercontent.com/1Malenok1/Stuff/main/logo_mms.sh)
 echo
 		echo -e "${C_LGn}Visit our resources:${RES}"
