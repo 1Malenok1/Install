@@ -1,6 +1,5 @@
 #!/bin/bash
 # Default variables
-dive="false"
 function="install"
 
 # Options
