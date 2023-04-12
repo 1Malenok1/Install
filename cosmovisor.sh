@@ -35,7 +35,7 @@ install() {
 	sudo apt update
 	sudo apt upgrade -y
 	sudo apt install wget git build-essential make jq -y
-	. <(wget -qO- https://raw.githubusercontent.com/SecorD0/utils/main/installers/golang.sh)
+	. <(wget -qO- https://raw.githubusercontent.com/1Malenok1/Install/main/golang.sh)
 	cd
 	git clone https://github.com/cosmos/cosmos-sdk
 	cd cosmos-sdk/
