@@ -96,4 +96,3 @@ echo
 		echo -e "${C_C}https://t.me/mmsnodes${RES} — MMS_Nodes_Chat"
 		echo -e "${C_C}https://nodes.mms.team${RES} — Guides_and_Manual's"
 		echo
-
