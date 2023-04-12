@@ -1,7 +1,7 @@
 #!/bin/bash
 # Default variables
-dive="false"
 function="install"
+nodejs_version=`wget -qO- https://api.github.com/repos/nodejs/node/releases/latest | jq -r ".tag_name" | sed "s%v%%g"`
 
 # Options
 . <(wget -qO- https://raw.githubusercontent.com/1Malenok1/Stuff/main/colours.sh) --
